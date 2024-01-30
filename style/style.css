@@ -3,3 +3,92 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+.page-wrapper {
+}
+.nav-wrapper {
+    height: 50px;
+    background: #1E6140;
+    padding-left: 254px;
+}
+.container {
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+}
+.nav-menu-choises {
+    position: relative;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.nav-menu-choises::after{
+    content: '';
+    position: absolute;
+    background: url(/image/arrow.svg) no-repeat center/cover;
+    width: 11.928px;
+    height: 12px;
+    bottom: 11%;
+    left: 104%;
+}
+.nav-menu-choise {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.line-splash{
+    width: 1px;
+   height: 50px;
+   background: rgba(255, 255, 255, 0.20);
+   margin-left: 60px;
+}
+.nav-registr {
+    position: relative;
+    margin-left: 100px;
+}
+.nav-registr::before{
+    content: '';
+    position: absolute;
+    background: url(/image/door.svg) no-repeat center/cover;
+    width: 20px;
+    height: 20px;
+    right: 102%;
+}
+.nav-registr__login {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.line {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5px;
+}
+.nav-registr__signup {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5px;
+}
